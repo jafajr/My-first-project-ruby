@@ -42,21 +42,20 @@ end
 
 Quando("preenche os campos com volta prevista em dois meses") do
   puts busca_ida
-
   # Select volta definida para 2 meses a partir da ida
   find("#datepickerBack").send_keys [:control, "a"], :space #limpa o campo
   find("#datepickerBack").send_keys(@data_volta, :enter)
-  sleep 3
-
   puts passageiros
 end
 
 Quando("clicar em Compre Aqui") do
   click_button "Compre aqui"
-  sleep 3
+end
+
+Quando("escolhe passagem de ida mais barata do dia de volta mais barata do dia") do
+  click_button "COMPRAR"
 end
 
 Então("é retornado a lista com passagem para o periodo") do
   expect(page).to have_content "Agora as nossas tarifas incluem o valor da taxa de embarque."
-  sleep 5
 end
