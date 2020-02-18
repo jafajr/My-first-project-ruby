@@ -1,0 +1,8 @@
+[0214/164951.234:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0214/164951.243:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0214/164951.243:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0214/164951.243:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0214/164951.243:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0214/164951.243:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0214/164951.243:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[0214/164951.267:ERROR:exception_snapshot_win.cc(98)] thread ID 26628 not found in process
